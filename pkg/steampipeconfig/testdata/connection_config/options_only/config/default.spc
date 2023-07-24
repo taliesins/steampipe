@@ -23,3 +23,8 @@ options "terminal" {
 options "general" {
   update_check = true # true, false
 }
+
+options "dashboard" {
+  port = 9194
+  listen = "local"
+}
